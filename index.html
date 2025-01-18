@@ -1,13 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mromero</title>
-</head>
-<body>
-    <div>
-        Hola
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miguel Angel Romero Licon - Software Enginneer</title>
+    <link rel="icon" href="./icon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- About Section -->
+    <section
+      id="about"
+      class="py-12 bg-white min-h-full h-screen w-full place-content-center relative"
+      style="
+        background-image: url(https://images.pexels.com/photos/30296108/pexels-photo-30296108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        background-blend-mode: luminosity;
+        background-size: cover;
+      "
+    >
+      <figure
+        class="m-auto text-center bg-slate-100 rounded-xl p-2 dark:bg-slate-800 w-full max-w-96"
+      >
+        <img
+          src="https://media.licdn.com/dms/image/C4E03AQHtA2Hiz-IVWA/profile-displayphoto-shrink_200_200/0/1517512981350?e=2147483647&v=beta&t=B_XBcV8K6Q_O0tEvh2aQP0UDNS6TfLOukvFm045Ud0E"
+          alt="Miguel Angel Romero"
+          class="w-24 h-24 mx-auto rounded-full border-4 border-gray-600 rounded-full md:h-auto"
+        />
+        <div class="pt-6 md:p-8 text-center space-y-4">
+          <blockquote>
+            <p class="text-lg font-medium">
+              I am a passionate software engineer with expertise in front-end
+              and back-end development, specializing in ReactJS, Node.js, and
+              cloud solutions.
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div class="text-sky-500 dark:text-sky-400">Miguel Romero</div>
+            <div class="text-slate-700 dark:text-slate-500">
+              Software Engineer
+            </div>
+          </figcaption>
+          <div class="absolute inset-x-0 bottom-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-10 text-white justify-self-center animate-ping"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </figure>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold text-center">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+          <div
+            class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition"
+          >
+            <h3 class="text-lg font-bold">Project 1</h3>
+            <p class="text-gray-600">
+              A React-based dashboard for visualizing financial data.
+            </p>
+            <a href="#" class="text-gray-600 mt-2 inline-block">View Demo →</a>
+          </div>
+          <div
+            class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition"
+          >
+            <h3 class="text-lg font-bold">Project 2</h3>
+            <p class="text-gray-600">
+              A RESTful API for e-commerce platforms built with Node.js.
+            </p>
+            <a href="#" class="text-gray-600 mt-2 inline-block">View Code →</a>
+          </div>
+          <div
+            class="bg-white p-6 shadow-lg rounded-lg hover:shadow-xl transition"
+          >
+            <h3 class="text-lg font-bold">Project 3</h3>
+            <p class="text-gray-600">
+              A portfolio showcasing my latest UI/UX designs.
+            </p>
+            <a href="#" class="text-gray-600 mt-2 inline-block"
+              >View Portfolio →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="py-12 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl font-bold text-center">Timeline</h2>
+        <div class="relative border-l border-gray-200 mt-8">
+          <div class="mb-8 ml-4">
+            <div
+              class="absolute -left-2 mt-2 w-4 h-4 bg-gray-600 rounded-full border border-white"
+            ></div>
+            <p class="text-gray-600">2021 - Present</p>
+            <h3 class="text-lg font-bold">Frontend Developer at Ventup</h3>
+            <p class="text-gray-600">
+              Developed modular and scalable UIs with React and TailwindCSS.
+            </p>
+          </div>
+          <div class="mb-8 ml-4">
+            <div
+              class="absolute -left-2 mt-2 w-4 h-4 bg-gray-600 rounded-full border border-white"
+            ></div>
+            <p class="text-gray-600">2018 - 2021</p>
+            <h3 class="text-lg font-bold">Backend Developer at ABC Corp</h3>
+            <p class="text-gray-600">
+              Built and optimized APIs for high-traffic systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-600 text-white py-4">
+      <div class="container mx-auto px-4 text-center">
+        <p>&copy; 2025 Miguel Angel Romero. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
